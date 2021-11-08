@@ -38,7 +38,9 @@ a {
     box-sizing: border-box;
 }
 
+
 /* Global styling */
+
 
 .text-light{
     color:var(--light);
@@ -59,7 +61,17 @@ a {
 .bg-light{
     background-color: var(--light);
 }
+
+.container{
+    max-width: 1200;
+    padding: 0 15px;
+    margin: auto;
+}
+
+
 /* Section styling */
+
+
 
 /* Nav Bar styling */
 .navbar{
@@ -67,5 +79,36 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px;
 }
+/* verticaly aligns nav bar */
+.nav-brand{
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    align-self: center;
+    font-size: 45px;
+}
+
+.collapse{
+    align-self: center;
+}
+/* made the link buttons in the nav bar bigger */
+.nav-link{
+    font-size: 18px;
+    margin: 12px;
+    color:var(--dark)
+}
+
+
+.search-box{
+    display: inline;
+    border-right: 1px solid var(--secondary);
+    padding-right: 12px;
+    margin-right: 10px;
+}
+/* Add hover to nav link buttons */
+.nav-link:hover{
+    color: var(--primary-color)
+}
+
 /* /Nav Bar styling */
