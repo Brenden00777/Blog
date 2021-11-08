@@ -1,0 +1,62 @@
+/* Left the ground */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Zen+Kurenaido&display=swap');
+/* font-family: 'Zen Kurenaido', sans-serif; */
+
+/* Lobster */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Zen+Kurenaido&display=swap');
+/* font-family: 'Lobster', cursive; */
+
+/* Dancing script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Zen+Kurenaido&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
+/* Root styling */
+
+/* Making a css varable */
+:root{
+--light:#81878d;
+--secondary:#adb5db;
+--dark:#343a40;
+--primary-color:#9e6316;
+--secondary-color:#2ec4b6;
+--border:#2c097c;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+*>*{
+    box-sizing: border-box;
+}
+
+/* Global styling */
+
+.text-light{
+    color:var(--light);
+}
+
+.text-secondary{
+    color:var(--secondary-color)
+}
+
+.text-dark{
+    color:var(--dark)
+}
+
+.text-primary{
+    color:var(--primary-color)
+}
+
+.bg-light{
+    background-color: var(--light);
+}
+/* Section styling */
