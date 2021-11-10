@@ -12,7 +12,7 @@
 
 /* Root styling */
 
-/* Making a css varable */
+/* Making a css varables */
 :root{
 --light:#81878d;
 --secondary:#adb5db;
@@ -106,6 +106,8 @@ a {
     padding-right: 12px;
     margin-right: 10px;
 }
+
+
 /* Add hover to nav link buttons */
 .nav-link:hover{
     color: var(--primary-color)
